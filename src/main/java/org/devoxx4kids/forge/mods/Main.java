@@ -17,5 +17,6 @@ public class Main {
 		MinecraftForge.EVENT_BUS.register(new CreeperSpawnAlert());
 		MinecraftForge.EVENT_BUS.register(new SharpSnowballs());
 		MinecraftForge.EVENT_BUS.register(new OverpoweredIronGolems());
+		MinecraftForge.EVENT_BUS.register (new ExplodingMinecarts()) ;
 	}
 }
